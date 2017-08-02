@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PendingComponent } from './pending/pending.component';
 import { CardComponent } from './card/card.component';
 import { ErrorComponent } from './error/error.component';
+import { ContentCarComponent } from './content-car/content-car.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PendingComponent,
     CardComponent,
-    ErrorComponent
+    ErrorComponent,
+    ContentCarComponent
   ],
   imports: [
     BrowserModule,
